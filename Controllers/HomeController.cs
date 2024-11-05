@@ -36,6 +36,8 @@ public class HomeController : Controller
 
     public IActionResult Events() => View();
 
+    public IActionResult Contact() => View();
+
     public IActionResult Gallary() => View();
     
     public IActionResult News(NewsViewModel vm)
