@@ -4,26 +4,34 @@
 
 @model NewsViewModel;
 
-<div class="text-center">
-    <h3>Our Latest News Features</h3>
-    <hr />
-</div>
+ <div class="container" >
+    <div class="row" style="top:60px">
+        <p id="news"></p>
+    </div>
+ </div>
 
-<div class="row d-flex flex-column justify-content-center">
-    @foreach(var item in Model.NewsArticles)
-    {
-        <div class="card col-sm-4" style="width: 18rem;">
-            <img src="@item.Picture" class="card-img-top" alt="Image Url">
-            <div class="card-body">
-                <h5 class="card-title">@item.Title</h5>
-                <p class="card-text">@item.Body</p>
-                <a href="#" class="btn btn-primary">@item.Author</a>
+<div style="min-height:600px;" class="text-center">
+    <h3>Our Latest News Features</h3>
+
+
+    <div class="row d-flex flex-column justify-content-center">
+        @foreach(var item in Model.NewsArticles)
+        {
+            <div class="card col-sm-4" style="width: 18rem;">
+                <img src="@item.Picture" class="card-img-top" alt="Image Url">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Title</h5>
+                    <p class="card-text">@item.Body</p>
+                    <a href="#" class="btn btn-primary">@item.Author</a>
+                </div>
+                <div class="card-footer">
+                    <small>@item.Date</small>
+                </div>
             </div>
-            <div class="card-footer">
-                <small>@item.Date</small>
-            </div>
-        </div>
-    }
+        }
+    </div>
+
+    <hr />
 </div>
 
 
