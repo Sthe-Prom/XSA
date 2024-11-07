@@ -18,54 +18,90 @@
  <!-- Hero Section --> 
 
 <div class="container" >
-    <div class="row" style="top:60px">
+    <div class="row" style="top:100px">
       <p id="hero"></p>
     </div>
 </div>
 
-   <div class="container-fluid g-0">
-        <img style="max-height: 400px;object-fit: cover;" 
-            class="img-fluid w-100 min-vh-25 min-vh-md-50 mb-n7" 
-            src="~/images/about/aboutxsa.webp" srcset="" sizes="" width="" height="" alt="XSA">
+<div lc-helper="background" class="container-fluid py-5 mb-4 d-flex justify-content-center" style="  background-image: url('../images/about/aboutxsa.webp');
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat">
+      <div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12" style=" backdrop-filter: blur(2px) saturate(102%);
+            -webkit-backdrop-filter: blur(2px) saturate(102%);
+            background-color: rgba(255, 255, 255, 0.45);
+            border-radius: 12px;
+            border: 1px solid rgba(209, 213, 219, 0.3);">
+          <div class="lc-block">
+              <div editable="rich">
+                  <h1 class="fw-bolder text-center">Xhosa Students Association UFS</h1>
+              </div>
+          </div>
+          <div class="lc-block col-md-12">
+              <div class="rounded mb-2" style="background-color: rgba(0, 0, 0, 0.3);padding: 5px;" >
+                  <h6 class="fs-6 fw-lighter" style="color: white !important;padding: 2px 10px;line-height:25px;">
+                    XSA is registered at the University of the free state in three campuses, Bloemfontein, South Campus and QwaQwa campus,
+                    as the student organisation of Xhosa speaking students. 
+                     <hr />
+                  </h6>
+                 
+                  <h6 class="fs-6 fw-lighter" style="color: white !important;padding: 2px 10px;">
+                    Its core mandate is to preserve the isiXhosa langauge, culture and heritage.
+                  </h6>
+              </div>
+          </div>
+          <div class="lc-block text-center">
+              <a class="btn btn-danger" href="#" role="button">Get to know us</a>
+              <a class="btn btn-outline-danger" href="#" role="button">Contact Us</a>
+          </div>
+      </div>
+</div>
+
+@*
+<div class="container-fluid g-0">
+    <img style="max-height: 400px;object-fit: cover;" 
+        class="img-fluid w-100 min-vh-25 min-vh-md-50 mb-n7" 
+        src="~/images/about/aboutxsa.webp" srcset="" sizes="" width="" height="" alt="XSA" />
+</div>
+
+<div class="container p-5 bg-body mt-md-n6 position-relative rounded">
+    <div class="row">
+        <div class="col-md-4 text-center align-self-center">
+            <div class="lc-block border-lg-end border-2 ">
+                <div editable="rich">
+                    <p class="display-4 text-secondary">XSA</p>
+                </div>
+            </div><!-- /lc-block -->
+        </div><!-- /col -->
+        <div class="col-md-8">
+            <div class="lc-block ">
+                <div editable="rich">
+                    <h1 class="">Xhosa Students Association UFS</h1>
+                    <h1 class="">Unesiduko Nje Unetyala</h1>
+                </div>
+            </div><!-- /lc-block -->
+        </div><!-- /col -->
     </div>
-
-
-    <div class="container p-5 bg-body mt-md-n6 position-relative rounded">
-        <div class="row">
-            <div class="col-md-4 text-center align-self-center">
-                <div class="lc-block border-lg-end border-2 ">
-                    <div editable="rich">
-                        <p class="display-4 text-secondary">XSA</p>
-                    </div>
-                </div><!-- /lc-block -->
-            </div><!-- /col -->
-            <div class="col-md-8">
-                <div class="lc-block ">
-                    <div editable="rich">
-                        <p class="display-4">Xhosa Students Association UFS. Unesiduko Nje Unetyala.</p>
-                    </div>
-                </div><!-- /lc-block -->
-            </div><!-- /col -->
-        </div>
-        <div class="row">
-            <div class="col-md-9 offset-md-1">
-                <div class="lc-block mt-5">
-                    <div editable="rich">
-                        <p class="lead text-secondary text-center"> 
-                          XSA is registered at the University of the free state in three campuses, Bloemfontein, South Campus and QwaQwa campus,
-                           as the student organisation of Xhosa speaking students.
-                        </p>
-                        <p class="lead text-secondary text-center">
-                          Its core mandate is to preserve the isiXhosa langauge, culture and heritage. 
-                        </p>
-                    </div>
-                </div><!-- /lc-block -->
-            </div><!-- /col -->
-        </div>
-    </div><!-- /Hero Section -->
+    <div class="row" style="background-color:#fafafa;">
+        <div class="col-md-9 offset-md-1">
+            <div class="lc-block mt-5">
+                <div editable="rich">
+                    <p class="lead text-secondary text-center"> 
+                      XSA is registered at the University of the free state in three campuses, Bloemfontein, South Campus and QwaQwa campus,
+                        as the student organisation of Xhosa speaking students.
+                    </p>
+                    <p class="lead text-secondary text-center">
+                      Its core mandate is to preserve the isiXhosa langauge, culture and heritage. 
+                    </p>
+                </div>
+            </div><!-- /lc-block -->
+        </div><!-- /col -->
+    </div>
+</div><!-- /Hero Section -->
+*@
 
  <!-- About Section -->
-  <section id="about" class="about section mt-5" >
+  <section  class="about section mt-5" >
 
     <div class="container mt-3">
 

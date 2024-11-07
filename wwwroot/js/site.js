@@ -161,8 +161,8 @@
       if (!navmenulink.hash) return;
       let section = document.querySelector(navmenulink.hash);
       if (!section) return;
-      let position = window.scrollY + 300;
-      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+      let position = window.scrollY + 100;
+      if (section) {
         document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
         navmenulink.classList.add('active');
       } else {
@@ -173,4 +173,20 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  
+  //scroll
+  function scrollToElementWithMargin(elementId, margin) {
+    const element = document.getElementById(elementId);
+    if (element) {
+      const elementTop = element.offsetTop - margin;
+      window.scrollTo({
+        top: elementTop,
+        behavior: 'smooth'
+      });
+    }
+  }
+
+  // Example usage:
+  scrollToElementWithMargin("about", 50);
+  
 })();
