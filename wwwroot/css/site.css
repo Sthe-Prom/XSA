@@ -767,6 +767,78 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Scroll Top Button
+--------------------------------------------------------------*/
+.scroll-left {
+  position: fixed;
+  visibility: hidden; 
+  opacity: 0; 
+  left: 25px;
+  bottom: 15px;
+  z-index: 9999999;
+  background-color: var(--accent-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  text-align: center;
+  align-items: center
+  
+}
+
+.scroll-left a {
+  text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.scroll-left i {
+  font-size: 28px;
+  color: var(--contrast-color);
+  line-height: 40px;
+  text-align: center;
+  align-content: center;
+  vertical-align: middle;
+  
+}
+
+.scroll-left ul {
+  background-color: transparent;
+  color: var(--accent-color) !important;
+  text-decoration: none;  
+  /* bottom: -5px !important; */
+  margin: -195px -20px -50px -15px !important;
+  padding: 5px 10px 10px 10px;
+}
+
+#myDIV {
+  align-content: start;
+  text-align: left;
+  border: 0.2px solid rgba(206, 18, 18, .3) !important;
+  border-radius: 8px;;
+  
+}
+
+.scroll-left ul li a {
+  /* font-size: medium; */
+  text-align: left;
+  color: grey;
+  text-decoration: none;
+}
+
+.scroll-left:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  color: var(--contrast-color);
+}
+
+.scroll-left.active {
+  visibility: visible;
+  opacity: 1;
+  /* bottom: 15px; */
+}
+
+
+/*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
@@ -1654,7 +1726,7 @@ section,
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
-.gallery {
+/* .gallery {
   overflow: hidden;
 }
 
@@ -1697,7 +1769,7 @@ section,
     transform: scale(1.2);
     transition: none;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact Section
@@ -1937,4 +2009,121 @@ section,
   .testimonials .testimonial-item p {
     width: 80%;
   }
+}
+
+/* Events */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* sideNav */
+.active2 {
+  color: #E40D2A !important;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Chefs Section
+--------------------------------------------------------------*/
+.chefs .team-member {
+  background-color: var(--surface-color);
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.chefs .team-member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.chefs .team-member .member-img:after {
+  position: absolute;
+  content: "";
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  height: 100%;
+  background-color: var(--surface-color);
+  -webkit-mask: url("../img/team-shape.svg") no-repeat center bottom;
+  mask: url("../img/team-shape.svg") no-repeat center bottom;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  z-index: 1;
+}
+
+.chefs .team-member .social {
+  position: absolute;
+  right: -100%;
+  top: 30px;
+  opacity: 0;
+  border-radius: 4px;
+  transition: 0.5s;
+  background: color-mix(in srgb, var(--background-color), transparent 60%);
+  z-index: 2;
+}
+
+.chefs .team-member .social a {
+  transition: color 0.3s;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  margin: 15px 12px;
+  display: block;
+  line-height: 0;
+  text-align: center;
+}
+
+.chefs .team-member .social a:hover {
+  color: var(--default-color);
+}
+
+.chefs .team-member .social i {
+  font-size: 18px;
+}
+
+.chefs .team-member .member-info {
+  padding: 10px 15px 20px 15px;
+}
+
+.chefs .team-member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: var(--default-font);
+}
+
+.chefs .team-member .member-info span {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+}
+
+.chefs .team-member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 15px;
+  line-height: 26px;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.chefs .team-member:hover {
+  transform: scale(1.08);
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.chefs .team-member:hover .social {
+  right: 8px;
+  opacity: 1;
 }

@@ -117,3 +117,4 @@ C:\Sthe\Projects\Blog Projects\XSA\bin\Debug\net7.0\publish\appsettings.json
 C:\Sthe\Projects\Blog Projects\XSA\bin\Debug\net7.0\publish\wwwroot\assets\vendor\bootstrap-icons\bootstrap-icons.json
 C:\Sthe\Projects\Blog Projects\XSA\bin\Debug\net7.0\publish\XSA.deps.json
 C:\Sthe\Projects\Blog Projects\XSA\bin\Debug\net7.0\publish\XSA.runtimeconfig.json
+C:\Sthe\Projects\Blog Projects\XSA\obj\Debug\net7.0\scopedcss\Views\Shared\_EventsLayout.cshtml.rz.scp.css

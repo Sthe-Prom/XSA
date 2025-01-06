@@ -13,59 +13,266 @@
       font-size: 15px;
     }
 
+    .h2_index{
+      color: #CE1212;
+      font-weight: 400;     
+      text-transform: uppercase; 
+    }
+
+    .gallery {
+      /* margin: 0 auto !important; */
+      margin-left: 5% !important;
+      align-content: center;
+      float:none !important;
+      --size: min(60vmin, 400px);
+      position: relative;
+      /* top: 50%;
+      left: 50%; */
+      transform: translate(50%, -20%);
+      box-shadow: 
+        0 0 10px #0002,
+        0 20px 40px -20px #0004;
+      width:  var(--size);
+      height: var(--size);
+      background: #fff;
+      border: 6px solid #fff;
+      display: grid;
+      grid-template-rows: 50% 50%;
+      /* grid-template-columns: 1fr 1fr; */
+      overflow: hidden;
+      gap: 6px;
+      margin-top: 7% !important;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @@media (max-width: 768px) {
+
+        .gallery {
+          
+          --size: min(60vmin, 400px);
+          position: relative;
+          margin-left: -60px !important;
+          /* top: 50%;
+          left: 50%; */
+          transform: translate(50%, -20%);
+          box-shadow: 
+            0 0 10px lightgrey,
+            0 20px 40px -20px lightgrey;
+          width:  var(--size);
+          height: var(--size);
+          background: #fff;
+          border: 6px solid #fff;
+          display: grid;
+          grid-template-rows: 50% 50%;
+          /* grid-template-columns: 1fr 1fr; */
+          overflow: hidden;
+          gap: 6px;
+          margin-top: 10% !important;
+        }
+
+        .h2_index
+        {
+          font-size: 16px;
+        }
+
+      .bi{
+          font-size: 24px !important;
+        }
+
+    }
+
+    @@keyframes moveHorizontal {
+      to {
+        object-position: 100% 0;
+      }
+    }
+
+    @@keyframes moveVertical {
+      to {
+        object-position: 0 100%;
+      }
+    }
+
+    @@keyframes shrinkVertical {
+      to {
+        height: 0;
+      }
+    }
+
+    @@keyframes shrinkHorizontal {
+      to {
+        width: 0;
+      }
+    }
+
+
+    @@keyframes growHorizontal {
+      to {
+        width: 100%;
+      }
+    }
+    @@keyframes growHorizontal2 {
+      to {
+        width: 70%;
+      }
+    }
+
+    @@keyframes growVertical {
+      to {
+        height: 100%;
+      }
+    }
+
+
+    @@keyframes growAll {
+      to {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .gallery img:nth-child(1) {
+      grid-column: 1;
+      grid-row: 1;
+      justify-self: end;
+      animation: 
+        moveHorizontal 8.5s 0.5s 1,
+        shrinkHorizontal 2s 9s ease-in 1;
+      animation-fill-mode: forwards;
+    }
+
+    .gallery img:nth-child(2) {
+      grid-column: 2;
+      grid-row: 1;
+      justify-self: end;
+      animation: 
+        shrinkHorizontal 2s 11s 1;
+      animation-fill-mode: forwards;
+    }
+
+    .gallery img:nth-child(3) {
+      grid-row: 2;
+      grid-column: 1 / 3;
+      align-self: end;
+      object-position: 0 0;
+      animation:
+        moveVertical 5s 1s 1,
+        shrinkVertical 3s 5s 1;
+      animation-fill-mode: forwards;
+    }
+
+    .gallery img:nth-child(4) {
+      grid-column: 1 / 3;
+      grid-row: 1;
+      width: 0;
+      justify-self: center;
+      align-self: start;
+      animation: 
+        growHorizontal 2.25s 11s 1,
+        moveHorizontal 4s 14s 1,
+        shrinkVertical 2s 18s 1;
+      animation-fill-mode: forwards;
+    }
+
+    .gallery img:nth-child(5) {
+      grid-column: 1;
+      grid-row: 2;
+      width: 0;
+      justify-self: start;
+      align-self: end;
+      animation: 
+        growHorizontal 2.5s 7.5s 1,
+        moveVertical 4s 12.5s 1,
+        shrinkHorizontal 2s 17s 1;;
+      animation-fill-mode: forwards;
+    }
+
+    .gallery img:nth-child(6) {
+      grid-column: 2;
+      grid-row: 2;
+      width: 0;
+      justify-self: end;
+      align-self: end;
+      animation: 
+        growHorizontal 2s 8s 1,
+        shrinkHorizontal 2s 17s 1;
+      animation-fill-mode: forwards;
+    }
+
+    .card-image {
+      width: 250px;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .gallery img:nth-child(7) {
+      grid-column: 1/3;
+      grid-row: 1/3;
+      width: 0;
+      justify-self: end;
+      align-self: end;
+      object-position: 0 0;
+      animation: 
+        growHorizontal 2s 20s 1,
+        moveHorizontal 16s 21.5s 1;
+      animation-fill-mode: forwards;
+      
+    }
+
 </style>
 
- <!-- Hero Section --> 
+<!-- Hero Section --> 
 
-<div class="container" >
-    <div class="row" style="top:100px">
-      <p id="hero"></p>
-    </div>
-</div>
-
-<div lc-helper="background" class="container-fluid py-5 mb-4 d-flex justify-content-center" style="  background-image: url('../images/about/aboutxsa.webp');
-  background-position: center;
-  background-size:cover;
-  background-repeat:no-repeat">
-      <div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12" style=" backdrop-filter: blur(2px) saturate(102%);
-            -webkit-backdrop-filter: blur(2px) saturate(102%);
-            background-color: rgba(255, 255, 255, 0.45);
+ @*
+<div lc-helper="background" id="hero" class="container-fluid py-3 mb-4 d-flex justify-content-center" style="background-image: url('/images/about/aboutxsa.webp');
+      background-position: center;
+      background-size:cover;
+      background-repeat:no-repeat">
+      <div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12" style="
+            background-color: rgba(0, 0, 0, 0.45);
             border-radius: 12px;
             border: 1px solid rgba(209, 213, 219, 0.3);">
-          <div class="lc-block">
-              <div editable="rich">
-                  <h1 class="fw-bolder text-center">Xhosa Students Association UFS</h1>
+          <div class="">
+              <div editable="">
+                  <h1 class="fw-bolder text-center" style="color:#fff;margin-top:0 !important;padding-top:0 !important;">Xhosa Students Association UFS</h1>
               </div>
           </div>
-          <div class="lc-block col-md-12">
-              <div class="rounded mb-2" style="background-color: rgba(0, 0, 0, 0.3);padding: 5px;" >
-                  <h6 class="fs-6 fw-lighter" style="color: white !important;padding: 2px 10px;line-height:25px;">
+          <div class="lc-block col-md-12" >
+              <div class="rounded mb-2" style="" >
+                  <p class="display-5 fs-4 text-center" style="font-weight:400;color: white !important;padding: 2px 8px;line-height:20px;">
                     XSA is registered at the University of the free state in three campuses, Bloemfontein, South Campus and QwaQwa campus,
                     as the student organisation of Xhosa speaking students. 
+                    <br /><br />
+                    <span class="mt-2">
+                        Its core mandate is to preserve the isiXhosa langauge, culture and heritage.
+                    </span>
                      <hr />
-                  </h6>
+                  </p>
                  
-                  <h6 class="fs-6 fw-lighter" style="color: white !important;padding: 2px 10px;">
-                    Its core mandate is to preserve the isiXhosa langauge, culture and heritage.
-                  </h6>
+                  
               </div>
           </div>
           <div class="lc-block text-center">
-              <a class="btn btn-danger" href="#" role="button">Get to know us</a>
-              <a class="btn btn-outline-danger" href="#" role="button">Contact Us</a>
+              <a class="btn btn-danger" href="https://www.tiktok.com/@@xhosa.students.as" target="_blank" role="button">Get to know us</a>
+              <a class="btn btn-outline-danger" style="color: white;" href="~/Home/Contact" role="button">Contact Us</a>
           </div>
       </div>
 </div>
+*@
 
-@*
-<div class="container-fluid g-0">
-    <img style="max-height: 400px;object-fit: cover;" 
+<div class="container-fluid g-0" id="hero">
+    <img style="max-height: 460px;object-fit: cover;" 
         class="img-fluid w-100 min-vh-25 min-vh-md-50 mb-n7" 
         src="~/images/about/aboutxsa.webp" srcset="" sizes="" width="" height="" alt="XSA" />
 </div>
 
 <div class="container p-5 bg-body mt-md-n6 position-relative rounded">
-    <div class="row">
+    <div class="row" >
         <div class="col-md-4 text-center align-self-center">
             <div class="lc-block border-lg-end border-2 ">
                 <div editable="rich">
@@ -77,7 +284,7 @@
             <div class="lc-block ">
                 <div editable="rich">
                     <h1 class="">Xhosa Students Association UFS</h1>
-                    <h1 class="">Unesiduko Nje Unetyala</h1>
+                    <h1 class="text-muted">Unesiduko Nje Unetyala</h1>
                 </div>
             </div><!-- /lc-block -->
         </div><!-- /col -->
@@ -94,66 +301,447 @@
                       Its core mandate is to preserve the isiXhosa langauge, culture and heritage. 
                     </p>
                 </div>
+                <div class="lc-block text-center mb-3">
+                    <a class="btn btn-danger" href="https://www.tiktok.com/@@xhosa.students.as" target="_blank" role="button">Get to Know Us <i class="bi bi-box-arrow-up-right"></i></a>
+                    <a class="btn btn-outline-danger" style="" href="~/Home/Contact" role="button"><i class="bi bi-telephone-inbound"></i> Contact Us </a>
+                </div>
             </div><!-- /lc-block -->
         </div><!-- /col -->
     </div>
 </div><!-- /Hero Section -->
-*@
 
- <!-- About Section -->
-  <section  class="about section mt-5" >
 
-    <div class="container mt-3">
+<!-- About Section -->
+<section id="about1" class="about section" >
 
-      <div class="row" >
+  <div class="container section-title" data-aos="fade-up">
+    <h2>About</h2>
+    <h2 class="h2_index mt-1" style="letter-spacing: 0.25em;">
+      Who we Are      
+    </h2>
+  </div><!-- End Section Title -->
 
-        <div class="col-lg-6 position-relative" data-aos="fade-up" data-aos-delay="100">
-          <img src="~/images/xsaindex.webp" style="max-height: 500px;width:100%;border-radius:30px;" class="img-responsive" alt="XSA">
-          <a href="#" class="glightbox pulsating-play-btn"></a>
-        </div>
+  <div class="container mt-3">
 
-        <div class="col-lg-6 ps-lg-4 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                  
-          <h3 class="px-4">Xhosa Student Association</h3>      
-          
-          <p class="px-4">
-            We are a Xhosa Students Association registered at the University Of Free State, we advocate for unity, solidarity, and the acceptance of multilingualism in university/professional spaces. Our core mandate is to preserve and revitalize  isiXhosa Language.
-          </p>
-          <ul>
-            <li>
-              
-              <div>
-                <h5><strong><span class="bi-xsa"> <i class="bi bi-diagram-3"></i></span>&nbsp;P</strong>romoting, <strong>C</strong>elebrating</h5>
-                <p class="">We commit ourselves to promoting, celebrating, and educating about the Xhosa  language and culture to all students at the University of the Free State.</p>
-              </div>
-            </li>
-            <li>                
-              <div>
-                <h5><span class="bi-xsa"><i class="bi bi-fullscreen-exit"></i></span>&nbsp;<strong>X</strong>hosa-<strong>s</strong>peaking <strong>s</strong>tudents</h5>
-                <p class="">We are committed to creating a community belonging to all Xhosa-speaking students and those keen on learning about the Xhosa culture.</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <h5>
-                <span class="bi-xsa"><i class="bi bi-broadcast"></i></span>&nbsp;<span class="caveat-xsa">UNITY</span> - '<strong>u</strong>mntu <strong>n</strong>gumntu <strong>n</strong>gabantu,'</h5>
-                <p class=""> As one of our most popular idioms states, 'umntu ngumntu ngabantu,' which translates to 'I am because we are,' this is a notion we are keen on advocating for as Xhosa Students Association. A collaborative platform for all your needs.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
+    <div class="row" >
 
+      <div class="col-lg-6 position-relative" data-aos="fade-up" data-aos-delay="100">
+        <img src="~/images/xsaindex.webp" style="max-height: 600px;width:100%;border-radius:10px;" class="img-responsive" alt="XSA">
+        <!-- <a href="#" class="glightbox pulsating-play-btn"></a> -->
+      </div>
+
+      <div class="col-lg-6 ps-lg-4 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                
+        <h3 class="px-4">Xhosa Student Association</h3>      
+        
+        <p class="px-4">
+          We are a Xhosa Students Association registered at the University Of Free State, we advocate for unity, solidarity, and the acceptance of multilingualism in university/professional spaces. Our core mandate is to preserve and revitalize  isiXhosa Language.
+        </p>
+        <ul>
+          <li>
+            
+            <div>
+              <h5><strong><span style="vertical-align:middle;"> <i class="bi bi-diagram-3" style="font-size:44px;"></i></span>&nbsp;P</strong>romoting, <strong>C</strong>elebrating</h5>
+              <p class="">We commit ourselves to promoting, celebrating, and educating about the Xhosa  language and culture to all students at the University of the Free State.</p>
+            </div>
+          </li>
+          <li>                
+            <div>
+              <h5><span style="vertical-align:middle;"><i class="bi bi-fullscreen-exit" style="font-size:44px;"></i></span>&nbsp;<strong>X</strong>hosa-<strong>s</strong>peaking <strong>s</strong>tudents</h5>
+              <p class="">We are committed to creating a community belonging to all Xhosa-speaking students and those keen on learning about the Xhosa culture.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h5>
+                <span class="bi-xsa" style="vertical-align:middle;">
+                  <i class="bi bi-broadcast" style="font-size:44px;"></i>
+                </span>
+                &nbsp;<span class="caveat-xsa">UNITY</span> - '<strong>u</strong>mntu <strong>n</strong>gumntu <strong>n</strong>gabantu,'
+              </h5>
+              <p class=""> As one of our most popular idioms states, 'umntu ngumntu ngabantu,' which translates to 'I am because we are,' this is a notion we are keen on advocating for as Xhosa Students Association. A collaborative platform for all your needs.</p>
+            </div>
+          </li>
+        </ul>
       </div>
 
     </div>
 
+  </div>
+
+</section><!-- /About Section -->
+
+<!-- Events Section -->
+<section id="events1" class="events section" style="background-color: #fafafa;">
+
+  <div class="container section-title py-3 mt-3" data-aos="fade-up">
+    <h2>Events</h2>
+    <h2 class="h2_index mt-1" style="letter-spacing: 0.2em;">
+      Our Events 
+      <i class="bi bi-cup-straw" style="font-size: 46px;"></i>
+    </h2>
+  </div><!-- End Section Title -->
+
+  <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 1,
+              "spaceBetween": 40
+            },
+            "1200": {
+              "slidesPerView": 3,
+              "spaceBetween": 1
+            }
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(/images/gallary/0f3f1f99478e411dbbde50bab91fbf7a.webp)">
+          <h3>Bride and Groom</h3>
+          <div class="price align-self-start">Yandisa and Aviwe</div>
+        
+        </div><!-- End Event item -->
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(/images/gallary/9f23020971dd4f59ad68b4d9a489d3a2.webp)">
+          <h3 style="font-size:22px;">Awards Ceremory / Committee Selection</h3>
+          <div style="font-size:18px;" class="price align-self-start">Year End Function / 2025 Elections</div>
+          
+        </div><!-- End Event item -->
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(/images/gallary/302c3a15d109498183b9c148c7f850a8.webp)">
+          <h3>Traditional Dance Group</h3>
+          <div style="font-size:18px;" class="price align-self-start">International Cultural Diversity Festival</div>
+         
+        </div><!-- End Event item -->
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(/images/gallary/d408fd2b88e643a5b5f1d6bb62298058.webp)">
+          <h3>Campus Wedding</h3>
+          <div class="price align-self-start">Xhosa Mock Wedding</div>
+      
+        </div><!-- End Event item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+</section><!-- /Events Section -->
+
+<!-- Gallery Section -->
+<section id="gallery1" class="section  mt-5" >
+
+  <!-- Section Title -->
+  <div class="container section-title py-3 mt-3" data-aos="fade-up">
+    <h2>Gallery</h2>
+    <h2 class="h2_index mt-1" style="letter-spacing: 0.25em;">
+      Our Gallary Snapshot       
+      <i class="bi bi-images hidden-sm" style="font-size:46px;"></i>
+    </h2>
+  </div><!-- End Section Title -->
+
+  <div class="container-fluid mt-4" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row g-0">
+      <div class="col-sm-12 col-md-6 col-lg-6 offset-md-2 offset-lg-2"   >
+        <div class="gallery">
+          <img src="~/assets2/images/1024/11863538/WhatsAppImage2024-11-09at15.10.461.jpeg" alt="" />
+          <img src="~/assets2/images/576x576/11865446/WhatsAppImage2024-11-09at18.22.54.jpeg" alt="" />
+          <img src="~/assets2/images/576/11862293/WhatsAppImage2024-11-09at13.30.594.jpeg" alt="" />
+          <img src="~/assets2/images/976_1536x1225_0_411/11863002/WhatsAppImage2024-11-09at13.30.5810.jpeg" alt="" />
+          <img src="~/assets2/images/1024/11865926/WhatsAppImage2024-11-09at13.30.581.jpeg" alt="" />
+          <img src="~/assets2/images/0/11863400/WhatsAppImage2024-11-09at15.55.19.jpeg" alt="" />
+          <img src="~/images/Teams/Execitives/Minister.jpg" alt="" />
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- /Gallery Section -->
+
+<!-- Blog Section -->
+@*
+<section id="blog1" class="blog section" style="background-color: white;">
+
+  <!-- Section Title -->
+  <div class="container section-title py-3 mt-3" data-aos="fade-up">
+    <h2>Blog</h2>
+    <h2 class="h2_index mt-1" style="letter-spacing: 0.25em;">
+      Our Blog Posts      
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 24 24" fill="rgb(206,18,18)"><path d="M2 4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4ZM4 5V19H20V5H4ZM6 7H12V13H6V7ZM8 9V11H10V9H8ZM14 9H18V7H14V9ZM18 13H14V11H18V13ZM6 15V17L18 17V15L6 15Z"></path></svg>
+    </h2>
+  </div><!-- End Section Title -->
+
+  <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+   
+        <div class="row g-0">
+
+            <div class="col-sm-12 col-md-4 col-lg-4 px-2">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">World</strong>
+                  <h3 class="mb-0">Featured post</h3>
+                  <div class="mb-1 text-muted">Nov 12</div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img src="~/images/gallary/302c3a15d109498183b9c148c7f850a8.webp" width="200" height="250" alt="" class="img-fluid">
+
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 px-2">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">Design</strong>
+                  <h3 class="mb-0">Post title</h3>
+                  <div class="mb-1 text-muted">Nov 11</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                
+                  <img src="~/images/gallary/302c3a15d109498183b9c148c7f850a8.webp" width="200" height="250" alt="" class="img-fluid">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-4 px-2">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">Design</strong>
+                  <h3 class="mb-0">Post title</h3>
+                  <div class="mb-1 text-muted">Nov 11</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                
+                  <img src="~/images/gallary/302c3a15d109498183b9c148c7f850a8.webp" width="200" height="250" alt="" class="img-fluid">
+
+                </div>
+              </div>
+            </div>
+
+        </div>
   
-  </section><!-- /About Section -->
 
-<!-- Testimonials Section -->
-<div id="testimonials" class="testimonials section dark-background mt-5">
+  </div>
 
-  <img src="~/images/gallary/9f23020971dd4f59ad68b4d9a489d3a2.webp" class="testimonials-bg" alt="">
+</section><!-- /Gallery Section -->
+*@
+
+<!-- Team Section -->
+<section id="team1" class="chefs section" style="background-color: #fafafa;">
+
+  <!-- Section Title -->
+  <div class="container section-title py-3 mt-3" data-aos="fade-up" >
+    <h2>Team</h2>
+    <h2 class="h2_index mt-1" style="letter-spacing: 0.25em;">
+        Our Professional Team      
+        <i class="bi bi-people-fill" style="font-size:46px;"></i>
+    </h2>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="team-member">
+          <div class="member-img">
+            <img src="~/images/Teams/Execitives/Advocate.jpg" style="width: 100%" class="card-image img-fluid" alt="">
+            <div class="social">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Lusanda Nozizwe, Madikane</h4>
+            <span>Chairperson</span>
+            <p>
+              
+              Lusanda Madikane (Nozizwe) is a dedicated academic and advocate for cultural preservation, currently pursuing a master’s degree in communication science at the University of the Free State (UFS). 
+
+              <br /><br />
+              In this role, she works to create initiatives that encourage cultural pride and multilingualism among students. Her commitment to African languages extends to her role as a Wikipedia editor for isiXhosa, contributing to the development of digital content in her native language.
+
+            </p>
+          </div>
+        </div>
+      </div><!-- End Chef Team Member -->
+
+      <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+        <div class="team-member">
+          <div class="member-img">
+            <img src="~/images/Teams/Execitives/Zimvo.jpg" style="width: 100%" class="card-image img-fluid" alt="">
+            <div class="social">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Zimvo Potelwa</h4>
+            <span>Chairperson</span>
+            <p>
+              
+              Zimvo Potelwa serves as the 2024/25 Chairperson of the UFS QwaQwa Xhosa Student Association. A passionate leader and final-year Bachelor of Social Sciences student, Zimvo is dedicated to celebrating Xhosa heritage and fostering unity.
+              
+              <br /><br /> With extensive experience in student leadership and community engagement, he aims to empower members, promote cultural pride, and create inclusive spaces for cultural dialogue across the UFS QwaQwa campus community.  
+            </p>
+          </div>
+        </div>
+      </div><!-- End Chef Team Member -->
+
+      <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+        <div class="team-member">
+          <div class="member-img">
+            <img src="~/images/Teams/Execitives/Liyama.jpg" style="width: 100%" class="card-image img-fluid" alt="">
+            <div class="social">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Liyema Faltein</h4>
+            <span>Chairperson</span>
+            <p>
+            
+              Liyema Faltein is a BSc Biological Sciences student at the University of the Free State and Chairperson of the Xhosa Students Association (2024/2025).
+              
+              <br /><br /> Aspiring to become a cardiothoracic surgeon and entrepreneur, Liyema thrives on leadership, creativity, and passion. They enjoy dancing, studying, music, sports, and advocating for community growth and cultural pride.
+            </p>
+          </div>
+        </div>
+      </div><!-- End Chef Team Member -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Chefs Section -->
+
+
+<!-- Contact Section -->
+<section id="contact1" class="contact section" >
+
+    <!-- Section Title -->
+    <div class="container section-title py-3 mt-5" data-aos="fade-up">
+      <h2>Contact Us</h2>
+      <h2 class="h2_index mt-1" style="letter-spacing: 0.2em;">
+        Get it Touch 
+        <i class="bi bi-telephone-inbound" style="font-size: 36px;"></i>
+      </h2>
+    </div><!-- End Section Title -->
+
+    <div class="container mb-3 mt-3" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+            
+            <div class="col-lg-6">
+                <div class="row ">
+
+                    <div class="col-lg-12 gy-4">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                            <i class="bi bi-geo-alt"></i>
+                            <h3>Address</h3>
+                            <p>University of the free state (UFS), Nelson Mandela Rd, Universitas</p>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="col-md-6 py-4">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                            <i class="bi bi-telephone"></i>
+                            <h3>Call Us</h3>
+                            <p>+27 (0)63 891 2268</p>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="col-md-6 py-4">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+                            <i class="bi bi-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p class="small">contacts@xsa.co.za</p>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+
+                <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+                    <div class="row gy-4">
+
+                        <div class="col-md-6">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                        </div>
+
+                        <div class="col-md-6 ">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                            <button type="submit">Send Message</button>
+                        </div>
+
+                    </div>
+                </form>
+
+            </div><!-- End Contact Form -->
+
+        </div>
+
+    </div>
+
+</section><!-- /Contact Section -->
+
+<!-- Pre---Footer Seection -->
+<!-- End Section Title -->
+
+<!-- Testimonials Section 2-->
+<div id="" class="testimonials section dark-background mt-0" style="rgba(0,0,0,.3)">
+  
+  <!-- <img src="" style="rgba" class="testimonials-bg card-image" alt=""> -->
 
   <div class="container" data-aos="fade-up" data-aos-delay="100" >
 
@@ -177,3 +765,22 @@
   </div>
 
 </div><!-- /Testimonials Section -->
+
+<script>
+
+    function scrollToHeroWithMargin() {
+            const heroElement = document.getElementById('hero');
+            const margin = 200; // Adjust the margin value as needed (in pixels)
+
+            heroElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+                inline: 'nearest'
+            });
+
+            window.scrollBy(0, -margin); // Scroll up by the specified margin
+        }
+      
+      window.onload = scrollToHeroWithMargin();
+
+</script>

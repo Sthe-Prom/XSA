@@ -86,8 +86,47 @@
     });
   });
 
+  /**
+   * Scroll Left button
+   */
+  let scrollLeft = document.querySelector('.scroll-left');
+
+  function toggleScrollLeft() {
+    if (scrollLeft) {
+      window.scrollY > 100 ? scrollLeft.classList.add('active') : scrollLeft.classList.remove('active');
+    }
+  }
+ 
+
   window.addEventListener('load', toggleScrollTop);
   document.addEventListener('scroll', toggleScrollTop);
+
+  window.addEventListener('load', toggleScrollLeft);
+  document.addEventListener('scroll', toggleScrollLeft);
+
+  /**
+   * Scroll Left button Navbar links active state on scroll
+   */
+  let navbarlinks = document.querySelectorAll('#navmenu .nav-link');
+  const margin = 100;
+
+  const navbarlinksActive = () => {
+   
+    navbarlinks.forEach(navbarlink => {
+      if (!navbarlink.hash) return
+       let section = document.querySelector(navbarlink.hash);
+       if (!section) return
+      if (section) {        
+        navbarlink.classList.add('active')        
+        //alert(navbarlink.hash)
+      } else {
+         navbarlink.classList.remove('active')
+        //  console.log('notihong..')
+      }
+
+    })
+  }
+
 
   /**
    * Animation on scroll function and init
@@ -153,8 +192,11 @@
 
   /**
    * Navmenu Scrollspy
+   * 
+   * 
    */
-  let navmenulinks = document.querySelectorAll('.navmenu a');
+
+  let navmenulinks = document.querySelectorAll('#navbar .scrollto');
 
   function navmenuScrollspy() {
     navmenulinks.forEach(navmenulink => {
@@ -162,31 +204,22 @@
       let section = document.querySelector(navmenulink.hash);
       if (!section) return;
       let position = window.scrollY + 100;
-      if (section) {
-        document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
-        navmenulink.classList.add('active');
+      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+         //navbarlink.classList.add('active2')
+        navmenulink.setAttribute("style", "color: #E40D2A !important;");
+        //element.setAttribute("class", "active2")
       } else {
-        navmenulink.classList.remove('active');
+        //navbarlink.classList.remove('active2')
+        navmenulink.setAttribute("style", "color: grey !important;");
       }
     })
   }
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
-  
-  //scroll
-  function scrollToElementWithMargin(elementId, margin) {
-    const element = document.getElementById(elementId);
-    if (element) {
-      const elementTop = element.offsetTop - margin;
-      window.scrollTo({
-        top: elementTop,
-        behavior: 'smooth'
-      });
-    }
-  }
+  window.addEventListener('load', navbarlinksActive);
+  // document.addEventListener('scroll', navmenuScrollspy);
+  // onscroll(document, navbarlinksActive);
 
-  // Example usage:
-  scrollToElementWithMargin("about", 50);
   
 })();

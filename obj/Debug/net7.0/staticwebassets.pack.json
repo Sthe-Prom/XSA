@@ -5,6 +5,758 @@
       "PackagePath": "staticwebassets\\XSA.bundle.scp.css"
     },
     {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\css\\custom.241109191711.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\custom.241109191711.css"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\g\\fonts.css",
+      "PackagePath": "staticwebassets\\assets2\\g\\fonts.css"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\g\\static\\s\\flamenco\\v18\\neIIzCehqYguo67ssZWBFqw.woff2",
+      "PackagePath": "staticwebassets\\assets2\\g\\static\\s\\flamenco\\v18\\neIIzCehqYguo67ssZWBFqw.woff2"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\g\\static\\s\\flamenco\\v18\\neIPzCehqYguo67ssZ0qNLk1cJA.woff2",
+      "PackagePath": "staticwebassets\\assets2\\g\\static\\s\\flamenco\\v18\\neIPzCehqYguo67ssZ0qNLk1cJA.woff2"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\g\\static\\s\\raleway\\v34\\1Ptug8zYS_SKggPNyC0ITw.woff2",
+      "PackagePath": "staticwebassets\\assets2\\g\\static\\s\\raleway\\v34\\1Ptug8zYS_SKggPNyC0ITw.woff2"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\g\\static\\s\\raleway\\v34\\1Ptug8zYS_SKggPNyCAIT5lu.woff2",
+      "PackagePath": "staticwebassets\\assets2\\g\\static\\s\\raleway\\v34\\1Ptug8zYS_SKggPNyCAIT5lu.woff2"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\g\\static\\s\\raleway\\v34\\1Ptug8zYS_SKggPNyCIIT5lu.woff2",
+      "PackagePath": "staticwebassets\\assets2\\g\\static\\s\\raleway\\v34\\1Ptug8zYS_SKggPNyCIIT5lu.woff2"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\g\\static\\s\\raleway\\v34\\1Ptug8zYS_SKggPNyCMIT5lu.woff2",
+      "PackagePath": "staticwebassets\\assets2\\g\\static\\s\\raleway\\v34\\1Ptug8zYS_SKggPNyCMIT5lu.woff2"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\g\\static\\s\\raleway\\v34\\1Ptug8zYS_SKggPNyCkIT5lu.woff2",
+      "PackagePath": "staticwebassets\\assets2\\g\\static\\s\\raleway\\v34\\1Ptug8zYS_SKggPNyCkIT5lu.woff2"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11863147\\WhatsAppVideo2024-11-09at13.30.596.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11863147\\WhatsAppVideo2024-11-09at13.30.596.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11863234\\WhatsAppVideo2024-11-09at13.30.594.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11863234\\WhatsAppVideo2024-11-09at13.30.594.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11863400\\WhatsAppImage2024-11-09at15.55.19.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11863400\\WhatsAppImage2024-11-09at15.55.19.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11863475\\WhatsAppImage2024-11-09at16.05.19.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11863475\\WhatsAppImage2024-11-09at16.05.19.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11863538\\WhatsAppImage2024-11-09at15.10.461.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11863538\\WhatsAppImage2024-11-09at15.10.461.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11864782\\WhatsAppVideo2024-11-09at17.45.04.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11864782\\WhatsAppVideo2024-11-09at17.45.04.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11865121\\WhatsAppImage2024-11-09at16.25.13.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11865121\\WhatsAppImage2024-11-09at16.25.13.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11865446\\WhatsAppImage2024-11-09at18.22.54.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11865446\\WhatsAppImage2024-11-09at18.22.54.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11865767\\WhatsAppVideo2024-11-09at18.48.52.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11865767\\WhatsAppVideo2024-11-09at18.48.52.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11865926\\WhatsAppImage2024-11-09at13.30.581.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11865926\\WhatsAppImage2024-11-09at13.30.581.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11865932\\WhatsAppImage2024-11-09at13.30.589.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11865932\\WhatsAppImage2024-11-09at13.30.589.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11865959\\WhatsAppImage2024-11-09at14.34.132.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11865959\\WhatsAppImage2024-11-09at14.34.132.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11866010\\WhatsAppImage2024-11-09at19.11.362.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11866010\\WhatsAppImage2024-11-09at19.11.362.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11866610\\WhatsAppVideo2024-11-09at19.46.22.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11866610\\WhatsAppVideo2024-11-09at19.46.22.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\0\\11866652\\WhatsAppVideo2024-11-09at15.50.13.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\0\\11866652\\WhatsAppVideo2024-11-09at15.50.13.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11863147\\WhatsAppVideo2024-11-09at13.30.596.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11863147\\WhatsAppVideo2024-11-09at13.30.596.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11863234\\WhatsAppVideo2024-11-09at13.30.594.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11863234\\WhatsAppVideo2024-11-09at13.30.594.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11863400\\WhatsAppImage2024-11-09at15.55.19.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11863400\\WhatsAppImage2024-11-09at15.55.19.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11863475\\WhatsAppImage2024-11-09at16.05.19.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11863475\\WhatsAppImage2024-11-09at16.05.19.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11863538\\WhatsAppImage2024-11-09at15.10.461.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11863538\\WhatsAppImage2024-11-09at15.10.461.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11864782\\WhatsAppVideo2024-11-09at17.45.04.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11864782\\WhatsAppVideo2024-11-09at17.45.04.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11865121\\WhatsAppImage2024-11-09at16.25.13.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11865121\\WhatsAppImage2024-11-09at16.25.13.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11865446\\WhatsAppImage2024-11-09at18.22.54.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11865446\\WhatsAppImage2024-11-09at18.22.54.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11865767\\WhatsAppVideo2024-11-09at18.48.52.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11865767\\WhatsAppVideo2024-11-09at18.48.52.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11865926\\WhatsAppImage2024-11-09at13.30.581.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11865926\\WhatsAppImage2024-11-09at13.30.581.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11865932\\WhatsAppImage2024-11-09at13.30.589.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11865932\\WhatsAppImage2024-11-09at13.30.589.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11865959\\WhatsAppImage2024-11-09at14.34.132.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11865959\\WhatsAppImage2024-11-09at14.34.132.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11866010\\WhatsAppImage2024-11-09at19.11.362.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11866010\\WhatsAppImage2024-11-09at19.11.362.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11866610\\WhatsAppVideo2024-11-09at19.46.22.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11866610\\WhatsAppVideo2024-11-09at19.46.22.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\11866652\\WhatsAppVideo2024-11-09at15.50.13.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\11866652\\WhatsAppVideo2024-11-09at15.50.13.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024\\5404257\\pexels-pixabay-38554.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024\\5404257\\pexels-pixabay-38554.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1024_2670x1668_0_0\\4893015\\pexels-olya-kobruseva-4545092.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1024_2670x1668_0_0\\4893015\\pexels-olya-kobruseva-4545092.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1200\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1200\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1200\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1200\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1200\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1200\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1200\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1200\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1536\\11862293\\WhatsAppImage2024-11-09at13.30.594.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1536\\11862293\\WhatsAppImage2024-11-09at13.30.594.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1536\\11862551\\WhatsAppImage2024-11-09at13.30.587.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1536\\11862551\\WhatsAppImage2024-11-09at13.30.587.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1536\\11862767\\WhatsAppImage2024-11-09at13.30.597.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1536\\11862767\\WhatsAppImage2024-11-09at13.30.597.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1536_1536x1225_0_411\\11863002\\WhatsAppImage2024-11-09at13.30.5810.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1536_1536x1225_0_411\\11863002\\WhatsAppImage2024-11-09at13.30.5810.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1600x1600\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1600x1600\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1600x1600\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1600x1600\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1600x1600\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1600x1600\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1600x1600\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1600x1600\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1600x1600\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1600x1600\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1600x1600\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1600x1600\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1600x1600\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1600x1600\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1600x1600\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1600x1600\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1600x1600\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1600x1600\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1600x1600\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1600x1600\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1600x1600\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1600x1600\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11862992\\WhatsAppImage2024-11-09at15.03.281.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11862992\\WhatsAppImage2024-11-09at15.03.281.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11863147\\WhatsAppVideo2024-11-09at13.30.596.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11863147\\WhatsAppVideo2024-11-09at13.30.596.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11863234\\WhatsAppVideo2024-11-09at13.30.594.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11863234\\WhatsAppVideo2024-11-09at13.30.594.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11863400\\WhatsAppImage2024-11-09at15.55.19.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11863400\\WhatsAppImage2024-11-09at15.55.19.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11863475\\WhatsAppImage2024-11-09at16.05.19.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11863475\\WhatsAppImage2024-11-09at16.05.19.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11863538\\WhatsAppImage2024-11-09at15.10.461.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11863538\\WhatsAppImage2024-11-09at15.10.461.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11864782\\WhatsAppVideo2024-11-09at17.45.04.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11864782\\WhatsAppVideo2024-11-09at17.45.04.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11865121\\WhatsAppImage2024-11-09at16.25.13.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11865121\\WhatsAppImage2024-11-09at16.25.13.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11865446\\WhatsAppImage2024-11-09at18.22.54.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11865446\\WhatsAppImage2024-11-09at18.22.54.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11865767\\WhatsAppVideo2024-11-09at18.48.52.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11865767\\WhatsAppVideo2024-11-09at18.48.52.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11865926\\WhatsAppImage2024-11-09at13.30.581.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11865926\\WhatsAppImage2024-11-09at13.30.581.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11865932\\WhatsAppImage2024-11-09at13.30.589.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11865932\\WhatsAppImage2024-11-09at13.30.589.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11865959\\WhatsAppImage2024-11-09at14.34.132.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11865959\\WhatsAppImage2024-11-09at14.34.132.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11866010\\WhatsAppImage2024-11-09at19.11.362.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11866010\\WhatsAppImage2024-11-09at19.11.362.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11866610\\WhatsAppVideo2024-11-09at19.46.22.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11866610\\WhatsAppVideo2024-11-09at19.46.22.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\11866652\\WhatsAppVideo2024-11-09at15.50.13.mp4",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\11866652\\WhatsAppVideo2024-11-09at15.50.13.mp4"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\4893036\\pexels-lumn-1410226.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\4893036\\pexels-lumn-1410226.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\4894248\\pexels-soulseeker-1589830.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\4894248\\pexels-soulseeker-1589830.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920\\4894269\\pexels-jonathan-borba-3014859.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920\\4894269\\pexels-jonathan-borba-3014859.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920_1024x1536_511_0\\11862335\\WhatsAppImage2024-11-09at13.30.584.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920_1024x1536_511_0\\11862335\\WhatsAppImage2024-11-09at13.30.584.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920_1925x1536_61_0\\11863013\\WhatsAppImage2024-11-09at13.30.588.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920_1925x1536_61_0\\11863013\\WhatsAppImage2024-11-09at13.30.588.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\1920_5304x3976_0_1191\\4894737\\pexels-natasha-fernandez-712651.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\1920_5304x3976_0_1191\\4894737\\pexels-natasha-fernandez-712651.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\2048\\5404257\\pexels-pixabay-38554.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\2048\\5404257\\pexels-pixabay-38554.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\2048_2670x1668_0_0\\4893015\\pexels-olya-kobruseva-4545092.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\2048_2670x1668_0_0\\4893015\\pexels-olya-kobruseva-4545092.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\220_2603x757_0_35\\11863264\\XSA_Logo_Transparent_Light_Background2.PNG",
+      "PackagePath": "staticwebassets\\assets2\\images\\220_2603x757_0_35\\11863264\\XSA_Logo_Transparent_Light_Background2.PNG"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576\\11862293\\WhatsAppImage2024-11-09at13.30.594.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576\\11862293\\WhatsAppImage2024-11-09at13.30.594.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576\\11862551\\WhatsAppImage2024-11-09at13.30.587.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576\\11862551\\WhatsAppImage2024-11-09at13.30.587.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576\\5404257\\pexels-pixabay-38554.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576\\5404257\\pexels-pixabay-38554.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576_2670x1668_0_0\\4893015\\pexels-olya-kobruseva-4545092.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576_2670x1668_0_0\\4893015\\pexels-olya-kobruseva-4545092.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11865446\\WhatsAppImage2024-11-09at18.22.54.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11865446\\WhatsAppImage2024-11-09at18.22.54.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11865959\\WhatsAppImage2024-11-09at14.34.132.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11865959\\WhatsAppImage2024-11-09at14.34.132.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11866010\\WhatsAppImage2024-11-09at19.11.362.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11866010\\WhatsAppImage2024-11-09at19.11.362.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\576x576\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\576x576\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\766\\11865446\\WhatsAppImage2024-11-09at18.22.54.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\766\\11865446\\WhatsAppImage2024-11-09at18.22.54.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11865446\\WhatsAppImage2024-11-09at18.22.54.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11865446\\WhatsAppImage2024-11-09at18.22.54.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11865959\\WhatsAppImage2024-11-09at14.34.132.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11865959\\WhatsAppImage2024-11-09at14.34.132.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11866010\\WhatsAppImage2024-11-09at19.11.362.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11866010\\WhatsAppImage2024-11-09at19.11.362.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11866331\\WhatsAppImage2024-11-09at19.31.06.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11866334\\WhatsAppImage2024-11-09at19.26.22.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11866348\\WhatsAppImage2024-11-09at19.25.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\800x800\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\800x800\\11866398\\WhatsAppImage2024-11-09at18.19.37.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\900\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\900\\11865440\\WhatsAppImage2024-11-09at18.24.24.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\900\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\900\\11865455\\WhatsAppImage2024-11-09at18.21.20.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\900\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\900\\11865509\\WhatsAppImage2024-11-09at18.29.28.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\900\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\900\\11865512\\WhatsAppImage2024-11-09at18.27.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\900\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\900\\11865515\\WhatsAppImage2024-11-09at18.27.51.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\900\\11865959\\WhatsAppImage2024-11-09at14.34.132.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\900\\11865959\\WhatsAppImage2024-11-09at14.34.132.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\900\\11866010\\WhatsAppImage2024-11-09at19.11.362.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\900\\11866010\\WhatsAppImage2024-11-09at19.11.362.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\900\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\900\\11866040\\WhatsAppImage2024-11-09at19.11.375.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\900\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\900\\11866385\\WhatsAppImage2024-11-09at19.26.52.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\960\\11862652\\WhatsAppImage2024-11-09at14.34.12.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\960\\11862652\\WhatsAppImage2024-11-09at14.34.12.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976\\11862293\\WhatsAppImage2024-11-09at13.30.594.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976\\11862293\\WhatsAppImage2024-11-09at13.30.594.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976\\11862551\\WhatsAppImage2024-11-09at13.30.587.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976\\11862551\\WhatsAppImage2024-11-09at13.30.587.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976\\11862767\\WhatsAppImage2024-11-09at13.30.597.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976\\11862767\\WhatsAppImage2024-11-09at13.30.597.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976\\11862992\\WhatsAppImage2024-11-09at15.03.281.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976\\11862992\\WhatsAppImage2024-11-09at15.03.281.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976\\4893036\\pexels-lumn-1410226.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976\\4893036\\pexels-lumn-1410226.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976\\4894248\\pexels-soulseeker-1589830.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976\\4894248\\pexels-soulseeker-1589830.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976\\4894269\\pexels-jonathan-borba-3014859.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976\\4894269\\pexels-jonathan-borba-3014859.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976\\5404257\\pexels-pixabay-38554.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976\\5404257\\pexels-pixabay-38554.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976_1024x1536_511_0\\11862335\\WhatsAppImage2024-11-09at13.30.584.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976_1024x1536_511_0\\11862335\\WhatsAppImage2024-11-09at13.30.584.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976_1536x1225_0_411\\11863002\\WhatsAppImage2024-11-09at13.30.5810.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976_1536x1225_0_411\\11863002\\WhatsAppImage2024-11-09at13.30.5810.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976_1925x1536_61_0\\11863013\\WhatsAppImage2024-11-09at13.30.588.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976_1925x1536_61_0\\11863013\\WhatsAppImage2024-11-09at13.30.588.jpeg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976_2670x1668_0_0\\4893015\\pexels-olya-kobruseva-4545092.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976_2670x1668_0_0\\4893015\\pexels-olya-kobruseva-4545092.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\976_5304x3976_0_1191\\4894737\\pexels-natasha-fernandez-712651.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\976_5304x3976_0_1191\\4894737\\pexels-natasha-fernandez-712651.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\images\\dummy.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\dummy.png"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\js\\custom.241109120617.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\custom.241109120617.js"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\webcard\\static\\1940.js",
+      "PackagePath": "staticwebassets\\assets2\\webcard\\static\\1940.js"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\webcard\\static\\381.js",
+      "PackagePath": "staticwebassets\\assets2\\webcard\\static\\381.js"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\webcard\\static\\7729.js",
+      "PackagePath": "staticwebassets\\assets2\\webcard\\static\\7729.js"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\webcard\\static\\app.bundle.1730995713.js",
+      "PackagePath": "staticwebassets\\assets2\\webcard\\static\\app.bundle.1730995713.js"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\webcard\\static\\app.min.1730995706.css",
+      "PackagePath": "staticwebassets\\assets2\\webcard\\static\\app.min.1730995706.css"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\webcard\\static\\fonts\\fontawesome-webfont.1e59d233.ttf",
+      "PackagePath": "staticwebassets\\assets2\\webcard\\static\\fonts\\fontawesome-webfont.1e59d233.ttf"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\webcard\\static\\fonts\\fontawesome-webfont.20fd1704.woff2",
+      "PackagePath": "staticwebassets\\assets2\\webcard\\static\\fonts\\fontawesome-webfont.20fd1704.woff2"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\webcard\\static\\fonts\\fontawesome-webfont.8b43027f.eot",
+      "PackagePath": "staticwebassets\\assets2\\webcard\\static\\fonts\\fontawesome-webfont.8b43027f.eot"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\webcard\\static\\fonts\\fontawesome-webfont.f691f37e.woff",
+      "PackagePath": "staticwebassets\\assets2\\webcard\\static\\fonts\\fontawesome-webfont.f691f37e.woff"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\webcard\\static\\images\\fontawesome-webfont.c1e38fd9.svg",
+      "PackagePath": "staticwebassets\\assets2\\webcard\\static\\images\\fontawesome-webfont.c1e38fd9.svg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\webcard\\static\\images\\ku.7a2e2db3.svg",
+      "PackagePath": "staticwebassets\\assets2\\webcard\\static\\images\\ku.7a2e2db3.svg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets2\\webcard\\vendor\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets2\\webcard\\vendor\\slick\\slick.min.js"
+    },
+    {
       "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\assets\\vendor\\aos\\aos.cjs.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.cjs.js"
     },
@@ -77,6 +829,18 @@
       "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
     },
     {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\css\\blog.css",
+      "PackagePath": "staticwebassets\\css\\blog.css"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\css\\events.css",
+      "PackagePath": "staticwebassets\\css\\events.css"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\css\\flex.css",
+      "PackagePath": "staticwebassets\\css\\flex.css"
+    },
+    {
       "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\css\\gallery.css",
       "PackagePath": "staticwebassets\\css\\gallery.css"
     },
@@ -87,6 +851,142 @@
     {
       "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\favicon.webp",
       "PackagePath": "staticwebassets\\favicon.webp"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Abulele.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Abulele.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Advocate.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Advocate.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Anothando.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Anothando.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Anovuyo.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Anovuyo.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Ben.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Ben.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Boyce.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Boyce.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Buntu.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Buntu.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Dr Nase.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Dr Nase.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\IMG-20241109-WA0009.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\IMG-20241109-WA0009.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\IMG_20241108_100436.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\IMG_20241108_100436.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Inam.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Inam.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Inganathi.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Inganathi.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Kgomotso.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Kgomotso.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Khethokuhle.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Khethokuhle.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Khwezi.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Khwezi.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Lafika.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Lafika.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Lehlohonolo.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Lehlohonolo.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Linamandla.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Linamandla.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Linda.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Linda.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Liyama.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Liyama.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Luthuli.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Luthuli.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Mbalentle.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Mbalentle.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Minentle.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Minentle.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Minister.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Minister.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Mnqweno.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Mnqweno.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Nhlonipho.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Nhlonipho.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Ntsika.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Ntsika.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Phuxuka.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Phuxuka.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Sandisiwe.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Sandisiwe.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Siphelele.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Siphelele.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Sivuyile.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Sivuyile.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Vusi.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Vusi.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Yamkela.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Yamkela.jpg"
+    },
+    {
+      "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\Teams\\Execitives\\Zimvo.jpg",
+      "PackagePath": "staticwebassets\\images\\Teams\\Execitives\\Zimvo.jpg"
     },
     {
       "Id": "C:\\Sthe\\Projects\\Blog Projects\\XSA\\wwwroot\\images\\about\\AC.webp",

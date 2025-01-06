@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/gallery.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/XSA.styles.css" asp-append-version="true" />
+    <!-- <link rel="stylesheet" href="~/css/flex.css" asp-append-version="true" /> -->
 
     <!-- Vendor CSS Files -->
     <!-- <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -24,6 +25,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet"> -->
 
+    <link rel="shortcut icon" type="image/x-icon" href="~/favicon.webp">
+
     <style>
         .dot {
             font-size: 2em;
@@ -32,12 +35,14 @@
             border-radius: 100%;            
         }
       
+         
+
     </style>
 
 </head>
 <body>
 
-    <header id="header" class="header d-flex align-items-center sticky-top" >
+    <header id="header" class="header d-flex align-items-center sticky-top "  >
         
         <div class="container position-relative d-flex align-items-center justify-content-between">
 
@@ -50,43 +55,99 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li class="nav-item">
-                        <a href="~/Home/Index#hero" class="nav-link text-dark active"> X <span class="dot">&middot;</span> S <span class="dot">&middot;</span> A</span></a>
+                        <a href="~/Home/Index/" class="nav-link text-dark" style="text-decoration:none !important;">
+                            X <span class="dot">&middot;</span> S <span class="dot">&middot;</span> A</span>
+                            <span> 
+                                <a class="nav-link text-dark" href="#hero" ></a>
+                            </span> 
+                        </a>
                     </li>
                     <li class="nav-item">
                         <!-- <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Events">Our Events</a> -->
-                        <a class="nav-link text-dark" href="~/Home/Events#events">Our Events</a>
+                        <a class="nav-link text-dark" href="~/Home/Events/" style="text-decoration:none !important;">
+                            Our Events
+                            <span> 
+                                <a class="nav-link text-dark" href="#events" ></a>
+                            </span> 
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="~/Home/Gallary#gallary">Gallary</a>
+                        <a class="nav-link text-dark" asp-action="Gallary" style="text-decoration:none !important;">
+                            Gallery
+                            <span> 
+                                <a class="nav-link text-dark" href="#gallary" ></a>
+                            </span> 
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="~/Home/About#about">About Us</a>
+                        <a class="nav-link text-dark" href="~/Home/About" style="text-decoration:none !important;">
+                            About Us
+                            <span> 
+                                <a class="nav-link text-dark" href="#about" ></a>
+                            </span> 
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="~/Home/Blog#blog">Blog</a>
+                        <a class="nav-link text-dark" href="~/Home/Team" style="text-decoration:none !important;">
+                            Team
+                            <span> 
+                                <a class="nav-link text-dark" href="#team" ></a>
+                            </span>  
+                        </a>
                     </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link text-dark" href="~/Home/Blog/#blog">Blog</a>
+                    </li> -->
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="~/Home/Contact#contact">Contact</a>
+                        <a class="text-dark" href="~/Home/Contact" style="text-decoration:none !important;" >
+                             Contact
+                            <span>                                 
+                                <a class="nav-link text-dark" href="#contact" ></a>
+                            </span>                           
+                        </a>
+                                              
                     </li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-            <a class="btn-getstarted" style="text-decoration:none !important;" href="#">Learn More</a>
+            <a class="btn-getstarted" style="text-decoration:none !important;" href="https://www.tiktok.com/@@xhosa.students.as" target="_blank">Learn More</a>
 
         </div>
 
     </header>
     
-    <div class="">
-        <main role="main" style="min-height: 500px;">
+    <div class="" style="">
+        <main role="main" style="min-height: 500px;width:100%;">            
             @RenderBody()
         </main>
     </div>
 
+    <nav id="navbar" class="scroll-left" style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+      
+      <a href="javascript:myFunction2()"  class="d-flex align-items-center justify-content-center">
+        <i onclick="toggle(this)" style="font-size:20px;" class="bi bi-arrow-left-short"></i>
+      </a>
+      
+    <!-- <i onclick="myFunction(this)" class="bi-arrow-left-short"></i> -->
+
+      <ul class="breadcrumb " id="myDIV">     
+        <li class="nav-item"><a class="nav-link scrollto" href="#about1">About</a></li>       
+        <li class="nav-item"><a class="nav-link scrollto" href="#events1">Events</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#gallery1">Gallery</a></li>              
+        <!-- <li class="nav-item"><a class="nav-link scrollto" href="#blog1">Blog</a></li> -->
+        <li class="nav-item"><a class="nav-link scrollto" href="#team1" >Team</a></li>   
+        <li class="nav-item"><a class="nav-link scrollto" href="#contact1">Contact</a></li>
+      </ul>
+    </nav>
+   
 
     <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+   
+
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
 
   <!-- Preloader -->
   <div id="preloader">
@@ -108,7 +169,7 @@
                        <p style="margin: 10px 0 0 0 !important;padding:2 !important;">University of the free state</p>
                        <p style="margin: 2px 0 0 0 !important;padding:2 !important;">Nelson Mandela Rd, Universitas</p>
                        <p style="margin: 8px 0 0 0 !important;padding:2 !important;"><strong>Phone:</strong> <span>+27 (0)63 891 2268</span></p>
-                       <p style="margin: 2px 0 0 0 !important;padding:2 !important;"><strong>Email:</strong> <span>xhosastudentsassociation1@gmail.com</span></p>
+                       <p style="margin: 2px 0 0 0 !important;padding:2 !important;"><strong>Email:</strong> <span>info@xsa-ufs.co.za</span></p>
                     </div>
                 </div>
 
@@ -134,11 +195,12 @@
 
                 <div class="col-lg-4 col-md-12">
                     <h4>Follow Us</h4>
-                    <p>XSA Socil Media Pages - Where Can You Find Us?</p>
+                    <p>XSA Social Media Pages - Where Can You Find Us?</p>
                         <div class="social-links d-flex">
-                            <a href="https://www.tiktok.com/"><i class="bi bi-twitter-x"></i></a>
-                            <a href="https://www.facebook.com/profile.php?id=61553187789676&mibextid=LQQJ4d"><i class="bi bi-facebook"></i></a>
-                            <a href="https://www.instagram.com/xhosa_students_association_bfn/profilecard/?igsh=emc5ajhhdTAzbGN6"><i class="bi bi-instagram"></i></a>                          
+                            
+                            <a href="https://www.tiktok.com/@@xhosa.students.as" target="_blank"><i class="bi bi-tiktok"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61553187789676&mibextid=LQQJ4d" target="_blank"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/xhosa_students_association_bfn/profilecard/?igsh=emc5ajhhdTAzbGN6" target="_blank"><i class="bi bi-instagram"></i></a>                          
                         </div>
                 </div>
 
@@ -146,8 +208,9 @@
         </div>
 
         <div class="border-top text-muted" >
-            <div class="container text-center mt-3">
-                &copy; <span id="date_year"></span> - Xhosa Student Association - XSA - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="container text-center mt-3 mb-3">
+                Copyright &copy; Xhosa Student Association (XSA) - <span id="date_year"></span>.
+                <p class="text-center text-muted">All right reserved.</p>
             </div>
         </div>
 
@@ -171,14 +234,32 @@
 
     <!-- Main JS -->
     <script src="~/js/site.js" asp-append-version="true"></script>
+   
     @await RenderSectionAsync("Scripts", required: false)
 
     <script>
 
         const date = new Date();
         var el = document.getElementById('date_year');
-        el = date.getFullYear();
+        el.innerText = date.getFullYear();
+
+        function toggle(x) {
+            x.classList.toggle("bi-arrow-right-short");
+        }
+
+        function myFunction2(y) {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            
+            } else {
+                x.style.display = "none";   
+            }
+        }    
+
+      
        
     </script>
+
 </body>
 </html>

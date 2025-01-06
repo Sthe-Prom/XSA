@@ -40,6 +40,12 @@ public class HomeController : Controller
 
     public IActionResult Gallary() => View();
     
+    public IActionResult BlogDetails() => View();
+
+    public IActionResult Team() => View();
+
+    // public IActionResult Events() => View();
+
     public IActionResult News(NewsViewModel vm)
     {
         //vm.NewsArticles = newsService_context.getNewsArticles();     

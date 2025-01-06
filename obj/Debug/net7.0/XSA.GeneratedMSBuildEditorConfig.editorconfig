@@ -24,12 +24,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Sthe/Projects/Blog Projects/XSA/Views/Home/BlogDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Sthe/Projects/Blog Projects/XSA/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Sthe/Projects/Blog Projects/XSA/Views/Home/Events.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sthe/Projects/Blog Projects/XSA/Views/Home/Events3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdmVudHMzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sthe/Projects/Blog Projects/XSA/Views/Home/EventsOR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdmVudHNPUi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Sthe/Projects/Blog Projects/XSA/Views/Home/Gallary.cshtml]
@@ -56,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmludFJlc3VsdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Sthe/Projects/Blog Projects/XSA/Views/Home/Team.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZWFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Sthe/Projects/Blog Projects/XSA/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -71,6 +87,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Sthe/Projects/Blog Projects/XSA/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sthe/Projects/Blog Projects/XSA/Views/Shared/_EventsLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FdmVudHNMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1t84j21yxv
 
 [C:/Sthe/Projects/Blog Projects/XSA/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
